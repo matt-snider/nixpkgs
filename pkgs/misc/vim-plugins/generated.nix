@@ -1689,6 +1689,18 @@ let
     meta.homepage = "https://github.com/haya14busa/is.vim/";
   };
 
+  java-syntax-vim = buildVimPluginFrom2Nix {
+    pname = "java-syntax-vim";
+    version = "2020-07-24";
+    src = fetchFromGitHub {
+      owner = "uiiaoo";
+      repo = "java-syntax.vim";
+      rev = "88a7eadd710107af40b2ab53fe1ed0b98c3539db";
+      sha256 = "0xcjaa8wxswbnbwdlx733pxajymnid2isvj64hwg9vmx0vkl0hq4";
+    };
+    meta.homepage = "https://github.com/uiiaoo/java-syntax.vim/";
+  };
+
   jdaddy-vim = buildVimPluginFrom2Nix {
     pname = "jdaddy-vim";
     version = "2014-02-22";

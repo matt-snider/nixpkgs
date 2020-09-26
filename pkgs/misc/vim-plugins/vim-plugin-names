@@ -543,6 +543,7 @@ tyru/open-browser-github.vim
 tyru/open-browser.vim
 uarun/vim-protobuf
 udalov/kotlin-vim
+uiiaoo/java-syntax.vim
 ujihisa/neco-look
 unblevable/quick-scope
 urbit/hoon.vim
